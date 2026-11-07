@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Hex_FPV_Timer") (type "KiCad") (uri "${KIPRJMOD}/Hex_FPV_Timer.kicad_sym") (options "") (descr "Custom symbols for Hex FPV Timer"))
+	(lib (name "CR2032-BS-6-1") (type "KiCad") (uri "${KIPRJMOD}/Hex_FPV_Timer.kicad_sym") (options "") (descr "Local symbol for CR2032"))
+	(lib (name "easyeda2kicad") (type "KiCad") (uri "${KIPRJMOD}/Hex_FPV_Timer.kicad_sym") (options "") (descr "Local symbol for imported parts"))
+)

@@ -1,0 +1,18 @@
+# KiCad project local settings (window state, zoom, layer visibility)
+*.kicad_prl
+
+# KiCad backups and autosaves
+*-backups/
+_autosave-*
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*~*.lck
+
+# Local history & editor folders
+.history/
+.vscode/
+
+# Operating System files
+.DS_Store
+Thumbs.db
