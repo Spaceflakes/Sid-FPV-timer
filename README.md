@@ -27,7 +27,13 @@ The hardware design is located in the [`PCB/`](PCB/) directory and is designed i
 - `PCB/Sid_FPV_Timer.kicad_pcb` — Complete PCB layout and routing
 - `PCB/Hex_FPV_Timer.kicad_sym` — Custom project symbols (RX5808, G-Switch, CR2032)
 - `PCB/Hex_FPV_Timer.pretty/` — Custom project footprints
-- `PCB/Sid_FPV_Timer.csv` — Bill of Materials (BOM)
+- `PCB/Sid_FPV_Timer.csv` — Bill of Materials (BOM) with LCSC part numbers
+- `PCB/fabrication-toolkit-options.json` — JLCPCB fabrication toolkit configuration
+- `PCB/production/` — Ready-to-order manufacturing files:
+  - `Timer_V1.1.zip` — JLCPCB Gerber and drill archive (Hardware Release V1.1)
+  - `Timer_V1.1_bom.csv` — SMT assembly BOM
+  - `Timer_V1.1_positions.csv` — Pick & place / centroid file (CPL)
+  - `netlist.ipc` — IPC-D-356 test netlist
 
 ---
 

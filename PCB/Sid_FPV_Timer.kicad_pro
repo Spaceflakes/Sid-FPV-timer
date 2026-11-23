@@ -146,7 +146,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -246,7 +246,9 @@
     "layer_presets": [],
     "viewports": []
   },
-  "boards": [],
+  "boards": [
+    "Sid_FPV_Timer.kicad_pcb"
+  ],
   "component_class_settings": {
     "assignments": [],
     "meta": {
@@ -579,7 +581,7 @@
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -618,7 +620,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "LCSC",
           "name": "LCSC",
           "show": true
@@ -774,13 +776,13 @@
         "uuid": "7e54f55b-e2ad-4fce-98ad-8ac54adbcc03"
       }
     ],
-    "used_designators": "SW2,#PWR66,U13",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "7e54f55b-e2ad-4fce-98ad-8ac54adbcc03",
-      "Hex Fpv timer"
+      "Sid_FPV_Timer"
     ],
     [
       "dad50800-762c-4c07-bdb7-c2c1c587a03d",
